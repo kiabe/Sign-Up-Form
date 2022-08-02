@@ -1,0 +1,13 @@
+div {
+    border: 2px double blue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#imageSideBar {
+    display: flex;
+    flex-direction: column;
+}
