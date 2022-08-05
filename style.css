@@ -4,10 +4,36 @@ div {
 
 #container {
     display: flex;
-    flex-direction: column;
+    min-height: 100vh;
+}
+
+#valIcon {
+    width: 400px;
+    object-fit: cover;
 }
 
 #imageSideBar {
     display: flex;
-    flex-direction: column;
+}
+
+.form-row {
+    padding: 4px;
+    margin-bottom: 6px;
+}
+
+#blurb {
+    padding: 4px;
+    font-size: 20px;
+}
+
+#valorantAgent {
+    display: flex;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+    border-radius: 10px;
+}
+
+textarea {
+    resize: vertical;
 }
