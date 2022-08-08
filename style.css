@@ -2,9 +2,19 @@
     border: 2px double blue;
 } */
 
+body {
+    background-color: crimson;
+    margin: 0;
+}
+
 #container {
     display: flex;
     min-height: 100vh;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
 }
 
 #valIcon {
@@ -17,25 +27,25 @@
 }
 
 #mainForm {
-    background-color: aliceblue;
+    background-color: powderblue;
+    padding-left: 8px;
 }
 
 .form-row {
-    padding: 6px;
+    padding: 10px;
     margin-bottom: 6px;
-}
-
-#disclaimer {
-    padding-left: 6px;
+    margin-left: 10px;
 }
 
 #blurb {
-    padding-left: 6px;
-    font-size: 20px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #valorantAgent {
     font-size: larger;
+    font-family: fantasy;
 }
 
 input[type=text], input[type=email], input[type=password], textarea {
@@ -51,16 +61,43 @@ textarea {
     vertical-align: top;
 }
 
-.form-center {
-    display: flex;
-}
-
 .left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.form-row.textBox {
-    font-size: larger;
+.teamRole {
+    display: flex;
+    padding: 10px;
+}
+
+.pad {
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.rightAlign {
+    text-align: right;
+}
+
+.form-center {
+    padding: 10px;
+}
+
+.padLeft {
+    padding-left: 8px;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 12px;
 }
