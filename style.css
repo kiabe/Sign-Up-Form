@@ -1,6 +1,6 @@
-div {
+/* div {
     border: 2px double blue;
-}
+} */
 
 #container {
     display: flex;
@@ -16,18 +16,28 @@ div {
     display: flex;
 }
 
+#mainForm {
+    background-color: aliceblue;
+}
+
 .form-row {
     padding: 4px;
     margin-bottom: 6px;
 }
 
+#disclaimer {
+    padding-left: 6px;
+}
+
 #blurb {
-    padding: 4px;
+    padding-left: 8px;
     font-size: 20px;
 }
 
 #valorantAgent {
     display: flex;
+    justify-content: center;
+    font-size: larger;
 }
 
 input[type=text], input[type=email], input[type=password], textarea {
@@ -36,4 +46,18 @@ input[type=text], input[type=email], input[type=password], textarea {
 
 textarea {
     resize: vertical;
+}
+
+.textBox * {
+    vertical-align: top;
+}
+
+.form-center {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
