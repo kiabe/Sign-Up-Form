@@ -21,7 +21,7 @@
 }
 
 .form-row {
-    padding: 4px;
+    padding: 6px;
     margin-bottom: 6px;
 }
 
@@ -30,13 +30,11 @@
 }
 
 #blurb {
-    padding-left: 8px;
+    padding-left: 6px;
     font-size: 20px;
 }
 
 #valorantAgent {
-    display: flex;
-    justify-content: center;
     font-size: larger;
 }
 
@@ -46,6 +44,7 @@ input[type=text], input[type=email], input[type=password], textarea {
 
 textarea {
     resize: vertical;
+    font-size: larger;
 }
 
 .textBox * {
@@ -60,4 +59,8 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.form-row.textBox {
+    font-size: larger;
 }
