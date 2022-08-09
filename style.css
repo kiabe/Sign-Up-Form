@@ -38,7 +38,7 @@ header, footer {
 }
 
 #blurb {
-    font-size: 30px;
+    font-size: 24px;
     padding-bottom: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -50,6 +50,8 @@ header, footer {
 
 input[type=text], input[type=email], input[type=password], textarea {
     border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(250, 156, 156);
+    padding: 6px;
 }
 
 textarea {
@@ -95,9 +97,20 @@ td {
 
 button {
     font-size: 20px;
-    background-color: crimson;
-    color: white;
+    background-color: white;
+    color: crimson;
     border-radius: 10px;
     padding: 16px;
     margin: 12px;
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+#nameAgent, #nationality, #email, #password, #passwordConfirm {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
 }
